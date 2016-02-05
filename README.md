@@ -1,10 +1,12 @@
 # mrPanJChallenge
-another web application with SPAs
+another web application with SPAs 
 
 # Bonus point
- - Write the stylesheet in SASS true
- - Support mobile screen (responsive) false
- - Use Browserify or Webpack true
+ - SASS true
+ - responsive false
+ - Webpack true
+ - Babel ( ECMA2015 )
+ - use promise instead of classic ajax http request
 
 # Question
 
