@@ -22,6 +22,7 @@ input{
 
 #main{
   position: absolute;
+  width:100%;
   .some-awesome-intro{
     color:#555;
     width:100%;
@@ -86,6 +87,8 @@ input{
 
 #inspiration{
   position: absolute;
+  width:100%;
+  padding:10px;
 }
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
