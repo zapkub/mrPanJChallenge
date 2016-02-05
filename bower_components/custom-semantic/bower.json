@@ -1,0 +1,20 @@
+{
+  "name": "custom-semantic",
+  "version": "0.1",
+  "main": [
+    "semantic.min.js",
+    "semantic.min.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "Gruntfile.js",
+    "package.json",
+    "karma.conf.js",
+    "index.html"
+  ]
+}
