@@ -21,7 +21,7 @@ router.use((req, res, next) => {
   next();
 });
 
-router.route('/trip')
+router.route('/trips')
   .post((req, res) => {
     let trip = new Trip();
     if (!req.body.name) {
