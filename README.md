@@ -1,5 +1,5 @@
 # mrPanJChallenge
-another web application with SPAs.
+another web application challenge for job apply.
 
 # Bonus point
  - SASS + Autoprefixer
