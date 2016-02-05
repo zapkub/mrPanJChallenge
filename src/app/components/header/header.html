@@ -1,11 +1,10 @@
-<div class="header ui stackable  two column grid" id="header">
+<div class="header" id="header">
   <div class="wrap row">
     <div class="left column">
       <div class="logo">
         <a href="#/">
           <img src="assets/images/angular.png">
         </a>
-
       </div>
       <div class="search-input-container">
 
@@ -25,7 +24,9 @@
       </div>
     </div>
     <div class="right column">
-      <div class="menu-list">
+      <a class="open-menu" ng-click="showMenu = !showMenu"><i class="icon sidebar"></i></a>
+      <div class="menu-list" ng-class="{'show':showMenu}">
+        <a class="close-menu" ng-click="showMenu = !showMenu"><i class="icon close"></i></a>
         <button class="item ui black signup basic button">Sign up</button>
         <a class="item" href="#">
           Log in</a>
