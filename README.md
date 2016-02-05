@@ -1,5 +1,5 @@
 # mrPanJChallenge
-another web application challenge for job apply.
+another web application challenge for job apply. you can directly open it on this url http://zapkub.github.io/#/
 
 # Bonus point
  - SASS + Autoprefixer
@@ -8,7 +8,8 @@ another web application challenge for job apply.
  - Babel(ecma6)
  - use promise instead of classic ajax http async request
  - a little ecma6 backend with mongoose
-
+#Front
+  http://zapkub.github.io/#/
 #End point
   github is not provide an environment to run node and mongo so I deploy it to my (little) ec2 server.
   restful (GET,POST,PUT,DELETE) : http://rungsikorn.rocks:1234/api/trips
