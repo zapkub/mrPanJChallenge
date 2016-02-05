@@ -5,8 +5,8 @@ another web application challenge for job apply. you can directly open it on thi
  - SASS + Autoprefixer
  - responsive
  - Gulp Webpack
- - Babel(ecma6)
- - use promise instead of classic ajax http async request
+ - Babel (ecma6 for frontend)
+ - use promise instead of classic ajax http async request (frontend)
  - a little ecma6 backend with mongoose
 #Front
   http://zapkub.github.io/#/
