@@ -21,6 +21,7 @@ input{
 }
 
 #main{
+  position: absolute;
   .some-awesome-intro{
     color:#555;
     width:100%;
@@ -83,7 +84,9 @@ input{
   }
 }
 
-
+#inspiration{
+  position: absolute;
+}
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically

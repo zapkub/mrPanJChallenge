@@ -23,18 +23,17 @@
       }
       .search-input-container{
         margin-left:25px;
-        input[type=text] {
+        #wheretogo ,.default.text{
           font-family: 'Roboto', sans-serif;
-          font-weight: 400;
-          color: grey;
-          width:200px;
-          box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
-          font-size:18px;
-          border:1px solid #999999;
-          padding:8px;
-          &:focus{
-
-          }
+          font-weight: 300;
+          font-size:14px;
+        }
+        input.search{
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          font-size:14px;
+          top:50%;
+          transform: translate(0,-50%);
         }
       }
     }
@@ -42,7 +41,7 @@
 
       .menu-list{
         .signup {
-          box-shadow: inset 0px 0px 2px black !important;
+          box-shadow: inset 0px 0px 1px black !important;
           &:hover{
             color:white !important;
             background: black !important;

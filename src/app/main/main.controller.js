@@ -6,8 +6,3 @@ export class MainController {
   }
 
 }
-
-export function inspirationsTripsResourceFactoryLongNameForMypleasure ($resource,$log){
-  'ngInject';
-  return $resource('https://www.takemetour.com/api/home');
-}

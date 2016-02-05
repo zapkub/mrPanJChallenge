@@ -1,14 +1,17 @@
-/* global malarkey:false, moment:false */
+/* global malarkey:false, moment:false , _:false jQuery:false */
 
 import { config } from './index.config';
-import { routerConfig,ProgressBarService } from './index.route';
+import { routerConfig,ProgressBarService,inspirationsTripsResourceFactoryLongNameForMypleasure } from './index.route';
 import { runBlock } from './index.run';
-import {inspirationsTripsResourceFactoryLongNameForMypleasure,MainController} from './main/main.controller';
+import {inspirationController} from './inspiration/inspiration.controller';
+import {MainController} from './main/main.controller';
 import {headerDirectiveForThisChallengeIReallyLoveAngularJSSuchALongName555} from './components/header/header.directive.js';
 
-angular.module('mrPanJchallenge', ['ngAnimate', 'ngTouch', 'ngSanitize','ngProgress', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr','ngProgress'])
+angular.module('mrPanJchallenge', ['anim-in-out','ngAnimate', 'ngTouch', 'ngSanitize','ngProgress', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr','ngProgress'])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
+  .constant('_',_)
+  .constant('$jQuery',jQuery)
   .config(config)
   .config(routerConfig)
   .run(runBlock)
@@ -16,3 +19,4 @@ angular.module('mrPanJchallenge', ['ngAnimate', 'ngTouch', 'ngSanitize','ngProgr
   .factory('inspirations',inspirationsTripsResourceFactoryLongNameForMypleasure)
   .directive('header',headerDirectiveForThisChallengeIReallyLoveAngularJSSuchALongName555)
   .controller('MainController', MainController)
+  .controller('InspirationController', inspirationController)
