@@ -1,10 +1,9 @@
 /* global malarkey:false, moment:false */
 
 import { config } from './index.config';
-import { routerConfig } from './index.route';
+import { routerConfig,ProgressBarService } from './index.route';
 import { runBlock } from './index.run';
-import { MainController } from './main/main.controller';
-import {inspirationsTripsResourceFactoryLongNameForMypleasure} from './main/main.controller';
+import {inspirationsTripsResourceFactoryLongNameForMypleasure,MainController} from './main/main.controller';
 import {headerDirectiveForThisChallengeIReallyLoveAngularJSSuchALongName555} from './components/header/header.directive.js';
 
 angular.module('mrPanJchallenge', ['ngAnimate', 'ngTouch', 'ngSanitize','ngProgress', 'ngMessages', 'ngAria', 'ngResource', 'ui.router', 'ui.bootstrap', 'toastr','ngProgress'])
@@ -13,6 +12,7 @@ angular.module('mrPanJchallenge', ['ngAnimate', 'ngTouch', 'ngSanitize','ngProgr
   .config(config)
   .config(routerConfig)
   .run(runBlock)
+  .service('progressBar',ProgressBarService)
   .factory('inspirations',inspirationsTripsResourceFactoryLongNameForMypleasure)
   .directive('header',headerDirectiveForThisChallengeIReallyLoveAngularJSSuchALongName555)
   .controller('MainController', MainController)

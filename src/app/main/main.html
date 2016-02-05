@@ -12,7 +12,13 @@
     <div class="row" ng-repeat="layout in main.inspirations_layouts">
       <!-- TODO: Better to create item as directive -->
       <div class="item" ng-class="'col-'+item.size" ng-repeat="item in layout.columns">
-        {{item.inspiration_id.name}} {{item.size}}
+
+        <div class="wrap">
+          <div class="name">
+            {{item.inspiration_id.name}}
+          </div>
+          <img class="thumbnail" ng-src="{{'/assets/images/'+item.inspiration_id.thumbnail_media_id.file_name}}">
+        </div>
       </div>
     </div>
   </div>
