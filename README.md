@@ -1,4 +1,6 @@
 # mrPanJChallenge
+
+I decide to create another repo for easier to manage
 another web application challenge for job apply. you can directly open it on this url http://zapkub.github.io/#/
 
 # Bonus point
