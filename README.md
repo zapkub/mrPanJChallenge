@@ -1,3 +1,9 @@
+#deprecated Move to fork repo
+https://github.com/zapkub/job-quest
+
+
+
+
 I decide to create another repo for easier to manage
 and also commit last build to 
 https://github.com/zapkub/job-quest
