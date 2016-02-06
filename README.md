@@ -24,7 +24,7 @@ another web application challenge for job apply. you can directly open it on thi
 ###Please explain what is single-page application and how it work. Give examples of tools used to make SPAs.
 
 SPAs is a web application that will reload only content without full page load via resource api.
-There are many tools to make SPAs but the core is Javascript Ajax ( xhr ) inside a tons of js library and framework.
+There are many tools to make SPAs but the core is Javascript Ajax ( xhr ) inside a tons of js library and framework and serverside restful service.
 
 ###What is the difference between MongoDB and MySql?
 
