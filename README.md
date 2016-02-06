@@ -8,9 +8,11 @@ another web application challenge for job apply. you can directly open it on thi
  - Babel (ecma6 for frontend)
  - use promise instead of classic ajax http async request (frontend)
  - a little ecma6 backend with mongoose
-#Front
+ 
+#Front end
   http://zapkub.github.io/#/
-#End point
+
+#Back end
   github is not provide an environment to run node and mongo so I deploy it to my (little) ec2 server.
   restful (GET,POST,PUT,DELETE) : http://rungsikorn.rocks:1234/api/trips
 
